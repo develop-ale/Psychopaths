@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper .sidebar h2 {
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -92,13 +92,13 @@ body {
 .wrapper .main_content .header {
   padding: 20px;
   background: #7c08db;
-  color: #717171;
+  color: #ffffff;
   border-bottom: 1px solid #7c08db;
 }
 
 .wrapper .main_content .info {
   margin: 20px;
-  color: #717171;
+  color: #ffffff;
   line-height: 25px;
 }
 
@@ -126,7 +126,7 @@ body {
 }
 #chat-home-2{
   font-size: 20px;
-  color: rgb(0, 119, 119);
+  color: rgb(0, 173, 173);
 }
 
 

@@ -7,10 +7,11 @@
   list-style: none;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
+  transition: 0.5s all ease;
 }
 
 body {
-  background-color: #f3f5f9;
+  background-color: #594f8d;
 }
 
 .wrapper {
@@ -27,7 +28,7 @@ body {
 }
 
 .wrapper .sidebar h2 {
-  color: #fff;
+  color: #d4b3b3;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -50,21 +51,18 @@ body {
 }
 
 .wrapper .sidebar ul li:hover {
-  background-color: #594f8d;
+  background-color: #0c0724;
 }
 
 .wrapper .sidebar ul li:hover a {
   color: #fff;
 }
-
 #home-active {
-  background-color: #594f8d;
+  background-color: #0c0724;
 }
-
 #home-active a {
   color: #fff;
 }
-
 .wrapper .sidebar .social_media {
   position: absolute;
   bottom: 0;
@@ -93,48 +91,46 @@ body {
 
 .wrapper .main_content .header {
   padding: 20px;
-  background: #fff;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
+  background: #7c08db;
+  color: #ffffff;
+  border-bottom: 1px solid #7c08db;
 }
 
 .wrapper .main_content .info {
   margin: 20px;
-  color: #717171;
+  color: #ffffff;
   line-height: 25px;
 }
 
 .wrapper .main_content .info div {
   margin-bottom: 20px;
 }
-
 .title-image {
   display: flex;
   justify-content: space-around;
 }
-
 .title-image img {
   width: 250px;
   border-radius: 100%;
 }
-
 .title-image h1 {
   justify-content: center;
   align-items: center;
 }
-
 .title-image title {
   display: none;
 }
-.image {
-  width: 250px;
-  height: 250px;
-  background-color: #e0e4e8;
-  border-radius: 20px;
-  align-items: center;
+
+#chat-home-1{
+  font-size: 20px;
 }
-.image img {
-  display: inline-block;
-  text-align: center;
-  width: 250px;
+#chat-home-2{
+  font-size: 20px;
+  color: rgb(0, 173, 173);
+}
+
+
+#title-home:hover{
+  font-size: 37px;
+  transition: 1.5s all ease;
 }
