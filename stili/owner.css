@@ -134,3 +134,16 @@ body {
   font-size: 37px;
   transition: 1.5s all ease;
 }
+.image-owner{
+  width: 100px;
+  border-radius: 100%;
+}
+.container-owner{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.name h1{
+  justify-content: center;
+}
