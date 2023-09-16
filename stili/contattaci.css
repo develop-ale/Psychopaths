@@ -143,3 +143,10 @@ body {
   text-align: center;
   height: 500px;
 }
+.discord-image img {
+  width: 17px;
+}
+.discord-image{
+  justify-content: center;
+  align-items: center;
+}

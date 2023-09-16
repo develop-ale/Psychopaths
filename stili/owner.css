@@ -147,3 +147,10 @@ body {
 .name h1{
   justify-content: center;
 }
+.discord-image img {
+  width: 17px;
+}
+.discord-image{
+  justify-content: center;
+  align-items: center;
+}
